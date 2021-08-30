@@ -3,7 +3,7 @@
 from joblib import dump, load
 class Model:
     def __init__(self):
-        self._model = load("model.joblib", "rb")
+        self._model = load("model.joblib")
 
     def predict(self, X):
         output = self._model(X)

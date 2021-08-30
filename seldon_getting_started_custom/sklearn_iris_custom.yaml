@@ -10,7 +10,7 @@ spec:
     - spec:
         containers:
         - name: classifier-custom
-          image: chritter/sklearn_iris:0.1
+          image: chritter/sklearn_iris:0.3
     graph:
       name: classifier-custom
     name: defaulttest

@@ -1,4 +1,4 @@
-IMAGE_VERSION=0.3
+IMAGE_VERSION=0.4
 build:
 	#s2i build . -E environment seldonio/seldon-core-s2i-python3:0.18 sklearn_iris:$(IMAGE_VERSION)
 	s2i build . -E environment seldonio/seldon-core-s2i-python3:1.7.0 sklearn_iris:$(IMAGE_VERSION)

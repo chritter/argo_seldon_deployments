@@ -4,10 +4,10 @@ Deploy model via model_seldon_rest.yaml. Portforward service rest-seldon-model w
 ports 9000:8000, then test api with shell scripts.
 
 
-
 ### Metrics Exposed for Prometheus 
 
-
+The following meris are exposed through the seldon deployment and relevant metrics
+can be monitored via the grafana dashboard  seldon-deployment-monitoring-1
 
 
 #### Latencies

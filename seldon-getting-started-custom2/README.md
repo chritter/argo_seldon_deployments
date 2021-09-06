@@ -2,7 +2,7 @@
 
 Highlights:
 * Build prediction image with Dockerfile
-* Create health check endpoint
+* Create health check endpoint for container testing
 * Create tag 
 
 

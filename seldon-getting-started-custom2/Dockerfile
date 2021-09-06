@@ -15,6 +15,8 @@ ENV MODEL_NAME Model
 ENV SERVICE_TYPE MODEL
 #ENV PERSISTENCE 0
 
+USER seldon
+
 CMD exec seldon-core-microservice $MODEL_NAME --service-type $SERVICE_TYPE
 # CMD exec seldon-core-microservice $MODEL_NAME $API_TYPE \
 #                --service-type $SERVICE_TYPE --persistence $PERSISTENCE

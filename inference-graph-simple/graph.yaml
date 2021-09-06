@@ -20,15 +20,15 @@ spec:
         type: REST
       type: MODEL
       children:
-          name: step_two
-          endpoint:
-            type: REST
-          type: MODEL
-          children:
-              name: step_three
-              endpoint:
-                type: REST
-              type: MODEL
-              children: []
+          - name: step_two
+            endpoint:
+              type: REST
+            type: MODEL
+            children:
+              - name: step_three
+                endpoint:
+                  type: REST
+                type: MODEL
+                children: []
     name: example
     replicas: 1

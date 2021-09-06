@@ -1,0 +1,17 @@
+apiVersion: machinelearning.seldon.io/v1
+kind: SeldonDeployment
+metadata:
+  name: iris-model-custom-meta
+  namespace: christian
+spec:
+  name: iris-custom-spec
+  predictors:
+  - componentSpecs:
+    - spec:
+        containers:
+        - name: classifier-custom
+          image: chritter/sklearn_iris2:0.1
+    graph:
+      name: classifier-custom
+    name: defaulttest
+    replicas: 1

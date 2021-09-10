@@ -1,4 +1,4 @@
-separate_pods: true # use either of the json files
+separate_pods: false # use either of the json files
 modela:
   image:
     name: seldonio/mock_classifier

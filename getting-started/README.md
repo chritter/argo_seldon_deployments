@@ -2,7 +2,7 @@
 
 * Fast, simple deployment of a sklearn image, using pre-build ML model
 * Sklearn version needs to match the version used on the Sklearn Server
-* Can customize the sklearnServer code (see ref) 
+* Can customize the sklearnServer code (see ref) by creating a new image 
 
 
 

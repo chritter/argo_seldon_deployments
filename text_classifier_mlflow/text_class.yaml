@@ -1,0 +1,15 @@
+apiVersion: machinelearning.seldon.io/v1
+kind: SeldonDeployment
+metadata:
+  name: text-classifier
+  namespace: seldon-system
+spec:
+  name: iris
+  predictors:
+  - graph:
+      implementation: MLFLOW_SERVER
+      modelUri: s3://bucket/mlflow/1/e01b366910bb4d86a94c9a6ee60cda66/artifacts/model
+      envSecretRefName: seldon-rclone-secret
+      name: classifier
+    name: default
+    replicas: 1

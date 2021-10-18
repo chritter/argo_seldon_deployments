@@ -1,7 +1,13 @@
 # Mlflow Sklearn Text Classifier with Language Wrapper
 
-* Use the Seldon MLFLOW_SERVER. 
-* ..
+NLP model deployed with Seldon MLFLOW_SERVER.
+
+## Model Training
+
+NLP_Classifier.ipynb:
+Trains NLP Model with more complex preprocessing pipeline.
+
+## Deployment
 
 ## Usage of Minio as S3 Storage
 

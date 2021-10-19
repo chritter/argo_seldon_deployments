@@ -12,7 +12,7 @@ condamodelfrom:
 	conda env create -f environment_model.yml
 condamodelexport:
 	conda activate textclass_model
-	conda env export | grep -v "^prefix: " > environment_model.yml
+	conda env export --no-builds | grep -v "^prefix: " > environment_model.yml
 registerkernel:
 	python -m ipykernel install --user --name=textclass
 build:

@@ -1,0 +1,36 @@
+channels:
+- conda-forge
+- defaults
+dependencies:
+- ca-certificates=2021.5.30
+- libcxx=12.0.1
+- libffi=3.4.2
+- ncurses=6.2
+- openssl=1.1.1l
+- pip=21.2.4
+- python=3.7.10
+- python_abi=3.7
+- readline=8.1
+- setuptools=58.0.4
+- sqlite=3.36.0
+- tk=8.6.11
+- wheel=0.37.0
+- xz=5.2.5
+- zlib=1.2.11
+- pip:
+  - mlflow
+  - beautifulsoup4==4.10.0
+  - click==8.0.3
+  - importlib-metadata==4.8.1
+  - joblib==1.1.0
+  - nltk==3.6.3
+  - numpy==1.21.2
+  - regex==2021.10.8
+  - scikit-learn==1.0
+  - scipy==1.7.1
+  - soupsieve==2.2.1
+  - threadpoolctl==3.0.0
+  - tqdm==4.62.3
+  - typing-extensions==3.10.0.2
+  - zipp==3.6.0
+name: textclass_model

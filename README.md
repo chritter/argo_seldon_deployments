@@ -18,5 +18,5 @@ settings, which is unpractical for deployment at this point.
 * 9) `9_text_classifier_mlflow`: trainings NLP classifier model with some
 dependencies and saves as custom Python mlflow model. then deployment via
 pre-packaged seldon mlflow server.
-* 10) `9_text_classifier_mlflow/`: deploys Transformers French-to-English 
+* 10) `10_translator_mlflow`: deploys Transformers French-to-English 
 language translator model. Model mlflow artifact is pulled from minio on k8s.

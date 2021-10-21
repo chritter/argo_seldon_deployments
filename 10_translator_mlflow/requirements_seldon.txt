@@ -1,0 +1,2 @@
+seldon_core
+boto3

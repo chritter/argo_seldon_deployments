@@ -1,0 +1,3 @@
+seldon_core
+scikit-learn == 0.24.2
+joblib == 1.0.1
